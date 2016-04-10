@@ -20,34 +20,40 @@ This is a 100% starter. There is not even any stylesheet formatting.
 - Java JDK - (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 - STS IDE - (https://spring.io/tools/sts/all)
 
+### SETUP WORKSPACE FOLDER
+On your development machine create a new folder. Name it what you want but for this document it will be called `WORKSPACE_FOLDER`.
+
+Now open Spring Tool Suite and create a new workspace. Point the workspace to the `WORKSPACE_FOLDER` listed above.
+
 ### PROJECT DOWNLOAD
-First, you will have to download it. If you have a local installation of git, you can
-do it by simply cloning this repository:
+Now you will download the project. Yo have two ways to do this. If you have a local installation of git, you can do it by simply cloning this repository:
 
 ```
+    cd to WORKSPACE_FOLDER
     git clone https://github.com/dantullis/spring-login-annot.git
 ```
 
-If you don't have git installed, you can download a `.zip` by pressing on the 
-*Download zip* button in the upper side of this page.
-
-Note your new `PROJECT-FOLDER` as either the folder you cloned to or the folder you downloaded and unzipped t.
+If you don't have git installed, you can download a `.zip` by pressing on the *Download zip* button in the upper side of this page. Download and unzip it to the `WORKSPACE_FOLDER`.
 
 ### IMPORT PROJECT INTO STS
 - Open the Spring Tool Suite IDE.
-- Select or create a new workspace location for this project.
+- Select the workspace noted above location for this project.
 - From the menu select Menu--> Import...
 - In the "import" window expand the "General" folder.
 - Choose "Existing Projects into Workspace" and press "Next".
 - In the "Import Projects" press on the "Browse..." button next to "Select root directory".
-- Browse to the `PROJECT-FOLDER` noted above.
+- Browse to the `WORKSPACE_FOLDER` noted above and select the folder "spring-login-annot".
 - You should now see a project selected in the "Projects" list box.
-- Make sure you check "Copy projects into workspace" or you will have your source code and project setup in two separate folders. Some will make a case for either model. 
+- Make sure you don't check "Copy projects into workspace". The project will already be in that folder.
 - Press the "Finish" button.
 
-### RUN PROJECT:
-You will see "building workspace..." in the bottom right corner of the STS IDE. That means that the project dependencies are being built. Among them are the dependencies listed in the pom.xml file. It may or may not assign the target runtime.
+### FINISH PROJECT SETUP
+There will be a few minor steps to finish the setup.
+ - You will see "building workspace..." in the bottom right corner of the STS IDE. That means that the project dependencies are being built. Among them are the dependencies listed in the pom.xml file.
+ - You will need to assign the target runtime. Richt -click on the project name and select Properties --> Targeted Runtimes and choose the Pivotal tc Server. Press the OK button.
+ - Finally, update Maven by right-clicking on the project name. Then choose Maven --> Update Project.
 
+### RUN PROJECT:
 Once completed you can Right-click on the project and select "Run As --> Run on Server". 
 If you get a new window with "Pivotal tc Server..." selected then check "Always use this server when running this project" and press "Finish".
 
