@@ -26,7 +26,7 @@ On your development machine create a new folder. Name it what you want but for t
 Now open Spring Tool Suite and create a new workspace. Point the workspace to the `WORKSPACE_FOLDER` listed above.
 
 ### PROJECT DOWNLOAD
-Now you will download the project. Yo have two ways to do this. If you have a local installation of git, you can do it by simply cloning this repository:
+Now you will download the project. You have two ways to do this. If you have a local installation of git, you can do it by simply cloning this repository:
 
 ```
     cd to WORKSPACE_FOLDER
