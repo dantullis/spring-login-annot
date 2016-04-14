@@ -1,5 +1,7 @@
 # Java Spring Annotation Based Project with Custom Login(CSRF protected)
 
+[![Build Status](https://travis-ci.org/dantullis/spring-login-annot.svg?branch=master)](https://travis-ci.org/dantullis/spring-login-annot)
+
 This is a starter Java web application with JSP front-end. It is based on the newer [Spring][httpSpring.io] "Java config annotations", rather than XML configuration(or even the mixed "XML configuration with annotations"). 
 
 This is a 100% starter. There is not even any stylesheet formatting.
