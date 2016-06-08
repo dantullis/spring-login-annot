@@ -15,7 +15,7 @@ This is a 100% starter. There is not even any stylesheet formatting.
 - [Maven][httpMavenRepo] project eases dependency needs
 
 ### TOOLING REQUIREMENTS:
-- Download and install the Java JDK. Not the SE or JRE versions.
+- Download and install the Java JDK SE. Not the JRE version.
 - Download and install Spring Tool Suite. It is based on the Eclipse IDE
 
 ### TOOL DOWNLOAD URLs:
